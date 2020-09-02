@@ -10,9 +10,12 @@ Since the modern energy market is a very complex system there is a need for regu
 Python / Pandas / NumPy / Scikit-Learn / Plotly / XGBoost  / Convolutional Neural Networks (Deep Learning) / Ensemble Methods / Transfer Learning / Matplotlib / Random Forest  / SVR / Decision Trees  / K-Nearest-Neighbours / Seaborn / Time Series / Tensorflow
 
 # Conclusion
+From every tested model the ARIMA has led to the lowest RMSE. 
+The parameters of this model should be tuned regarding the given data
 
 # Future work
 - Gridsearch to optimize the parameter for each model
+- Test the SARIMA model for a better result
 - Get more EinsMan data to predict for other Regions
 - Train API models with historical data
 - Build a dashboard with Einsman forecast for different Regions
